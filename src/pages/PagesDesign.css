@@ -1,3 +1,7 @@
+body{
+     background-image: url("../asset/image/bg-1.jpg");
+}
+
 .topFixedPage{
      background-image: url("../asset/image/page.jpg");
      min-height: 250px;

@@ -49,17 +49,10 @@ export class ProjectDetails extends Component {
 
           return (
              <Fragment>
-             <Container className="mt-5">
              <Row>
-                  <Col lg={6} md={6} sm={12} className="mt-5">
 
-                       <img src={project_image_1} />
-
-                  </Col>
-
-
-                  <Col lg={6} md={6} sm={12} className="mt-5">
-                       <div >
+                  <Col lg={6} md={6} sm={12} style={{background:'#D6E7FF'}} className="mt-5">
+                       <Container className='mx-5 px-5 py-3'>
                             <h1> {project_name} </h1>
                             <p >
                                 short Researches & Reports
@@ -75,13 +68,52 @@ export class ProjectDetails extends Component {
 
                             <Button variant="info" href="#"> Live Preview </Button>
 
-                       </div>
+                       </Container>
 
                   </Col>
 
 
+                  <Col lg={6} md={6} sm={12} className="mt-5 m-0">
+
+                       <img src={project_image_1}  className=" m-0" width={'100%'} />
+
+                  </Col>
+
+
+                  <Col lg={3} md={6} sm={12} className="mt-5 ms-5">
+                  <Container>
+
+                       <img src={project_image_1} height={'350px'} className=" m-0" width={'100%'} />
+                       <h4 className='text-center mt-2'>Ross akdahsbhds</h4>
+                       </Container>
+
+                  </Col>
+
+
+                  <Col lg={6} md={6} sm={12}  className="mt-5">
+                  <Container >
+                            <p> {project_description} </p>
+                          
+
+                       </Container>
+        
+                  </Col>
+
+
+
              </Row>
-        </Container>
+             <div className='d-flex'>
+             <img src={project_image_1} height={'140px'}  className="mt-5 m-0" width={'25%'} />
+             <img src={project_image_1} height={'140px'}  className="mt-5 m-0" width={'25%'} />
+             <img src={project_image_1} height={'140px'}  className="mt-5 m-0" width={'25%'} />
+             <img src={project_image_1} height={'140px'}  className="mt-5 m-0" width={'25%'} />
+
+             </div>
+             <Container className='mt-5'>
+                            <p> {project_description} </p>
+                          
+
+                       </Container>
 
              
              

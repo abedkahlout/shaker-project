@@ -12,7 +12,8 @@
      background-color: #051b35;
      min-height: 400px;
 
-
+     background-image: url('../../asset/image/bg-2.jpg');
+     background-size: cover;
 }
 
 .Name{
