@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Forumtable() {
 	return (
-		<Container className="mt-5">
+		<Container style={{width:'800px'}} className="mt-5">
          <div className="d-flex justify-content-between mt-3">
 					<Link className="text-right btn-blue my-3"  exact to="/AddTopic">
 						Add a new Topic
@@ -13,7 +13,7 @@ function Forumtable() {
           <Form.Control type="email" placeholder="Search" style={{width:'20%', margin:'10px'}} />
 
 					</div>
-			<Table striped>
+			<Table>
 				<thead style={{ background: "#1b1f5cc5", color: "white" }}>
 					<tr className="text-center">
 						<th style={{ padding: "15px" }}>Authors</th>
@@ -22,7 +22,7 @@ function Forumtable() {
 						<th style={{ padding: "15px" }}>Activity</th>
 					</tr>
 				</thead>
-				<tbody>
+				<tbody  style={{ background: "white", color: "black" }}>
 					<tr className="text-center">
 						<td>
 							<img src="/1.webp" style={{borderRadius:'50%'}} width={"80px"} height={"50px"} />
@@ -44,7 +44,8 @@ function Forumtable() {
 						</td>
 						<td>15</td>
 						<td>1 hrs, 10 min ago</td>
-					</tr>	<tr className="text-center">
+					</tr>
+						<tr className="text-center">
 						<td>
 							<img src="/1.webp" style={{borderRadius:'50%'}} width={"80px"} height={"50px"} />
 						</td>
@@ -55,6 +56,63 @@ function Forumtable() {
 						<td>15</td>
 						<td>1 hrs, 10 min ago</td>
 					</tr>
+					<tr className="text-center">
+						<td>
+							<img src="/1.webp" style={{borderRadius:'50%'}} width={"80px"} height={"50px"} />
+						</td>
+						<td>
+							<h6>Comhputers & Gadgets</h6>
+							<p>All things computers and tech.</p>
+						</td>
+						<td>15</td>
+						<td>1 hrs, 10 min ago</td>
+					</tr>
+
+					<tr className="text-center">
+						<td>
+							<img src="/1.webp" style={{borderRadius:'50%'}} width={"80px"} height={"50px"} />
+						</td>
+						<td>
+							<h6>Comhputers & Gadgets</h6>
+							<p>All things computers and tech.</p>
+						</td>
+						<td>15</td>
+						<td>1 hrs, 10 min ago</td>
+					</tr><tr className="text-center">
+						<td>
+							<img src="/1.webp" style={{borderRadius:'50%'}} width={"80px"} height={"50px"} />
+						</td>
+						<td>
+							<h6>Comhputers & Gadgets</h6>
+							<p>All things computers and tech.</p>
+						</td>
+						<td>15</td>
+						<td>1 hrs, 10 min ago</td>
+					</tr>
+
+					<tr className="text-center">
+						<td>
+							<img src="/1.webp" style={{borderRadius:'50%'}} width={"80px"} height={"50px"} />
+						</td>
+						<td>
+							<h6>Comhputers & Gadgets</h6>
+							<p>All things computers and tech.</p>
+						</td>
+						<td>15</td>
+						<td>1 hrs, 10 min ago</td>
+					</tr>
+					<tr className="text-center">
+						<td>
+							<img src="/1.webp" style={{borderRadius:'50%'}} width={"80px"} height={"50px"} />
+						</td>
+						<td>
+							<h6>Comhputers & Gadgets</h6>
+							<p>All things computers and tech.</p>
+						</td>
+						<td>15</td>
+						<td>1 hrs, 10 min ago</td>
+					</tr>
+					
 				</tbody>
 			</Table>
 		</Container>

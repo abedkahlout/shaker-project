@@ -13,21 +13,20 @@ export class ForumPage extends Component {
 
      render() {
           return (
-            <Fragment>
+            <div style={{background:'#F2F6F7'}}>
             <TopNavigation/>
                <TopPage pagetitle="Forum"/>
 
                     <Forumtable />
                 
 
-               <Contact/>
 
 
 
                <Footer/>
             
             
-            </Fragment>
+            </div>
           )
      }
 }
